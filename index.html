@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESLA</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Playfair+Display&family=Zilla+Slab&display=swap');
+
+        * {
+            margin: 0%;
+            padding: 0%;
+
+        }
+
+        header {
+            background-image: url('1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            width: 100%;
+            margin-top: 0px;
+
+        }
+
+        nav {
+
+            height: 4vh;
+            font-family: 'Zilla Slab', serif;
+            position: fixed;
+            width: 100vw;
+        }
+
+        nav img {
+            height: 5vh;
+            width: 9vw;
+            padding: 1vh 3vw;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        ul {
+            display: flex;
+
+            font-size: 2.5vh;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .nav ul li {
+            padding: 0px 10px;
+            list-style: none;
+        }
+
+        .center {
+            display: flex;
+            margin: auto;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .right {
+            display: flex;
+            margin: auto 0px;
+            float: right;
+        }
+
+        .model3 {
+            text-align: center;
+            margin-top: auto;
+
+            margin-top: 5px;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            font-size: 8vh;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .para {
+            text-align: center;
+            font-size: 5vh;
+        }
+
+        .btn {
+
+            height: 60vh;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .btn button {
+            height: 5vh;
+            width: 20vw;
+            margin: 0px 5px;
+            font-weight: bold;
+            border-radius: 5px;
+
+        }
+
+        .bt1 {
+            background-color: rgb(54, 50, 50);
+            color: white;
+
+        }
+
+        .bt2 {
+            background-color: antiquewhite;
+
+        }
+
+        .modely {
+            height: 100vh;
+            width: 100%;
+            background-image: url('2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .models {
+            height: 100vh;
+            width: 100%;
+            background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/538ac149-d103-4834-9d38-641d8ae447ef/bvlatuR/std/4096x2560/Homepage-Model-S-Desktop-LHD');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .modelx {
+            height: 100vh;
+            background-image: url('3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .SolarPanel {
+            height: 100vh;
+            background-image: url('4.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .Solarroof {
+            height: 100vh;
+            width: 100%;
+            background-image: url('5.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .Acce {
+            height: 100vh;
+            width: 100%;
+            background-image: url('6.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .fot {
+
+            display: flex;
+
+            margin-top: 40px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fot a {
+            margin: 0px 15px;
+            color: #5C5E62;
+        }
+
+        @media screen and (max-width: 900px) {
+            body {
+                background-color: lightgreen;
+            }
+
+            ul {
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+            }
+            .right{
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+                <ul>
+                    <img src="pngfind.com-tesla-logo-png-499219.png" alt="">
+                    <div class="center">
+                        <li><a href="#">Model S</a></li>
+                        <li><a href="#">Model 3</a></li>
+                        <li><a href="#">Model X</a></li>
+                        <li><a href="#">Model Y</a></li>
+                        <li><a href="#">Solar Roof</a></li>
+                        <li><a href="#">Solar Panels</a></li>
+                    </div>
+                    <div class="right">
+                        <li class="float-right"><a>Shop</a></li>
+                        <li><a>Account</a></li>
+                        <li><a>Menu</a></li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <div class="model3">
+            <p>Model 3</p>
+        </div>
+        <p class="para">Order Online for Touchless Delivery</p>
+        <div class="btn">
+            <button class="bt1">CUSTOM ORDER</button>
+            <button class="bt2">EXISTING INVENTROY</button>
+        </div>
+
+    </header>
+    <div class="modely reveal fade-bottom">
+        <div class="model3">
+            <p>Model Y</p>
+        </div>
+        <p class="para">Order Online for Touchless Delivery</p>
+        <div class="btn">
+            <button class="bt1">CUSTOM ORDER</button>
+            <button class="bt2">EXISTING INVENTROY</button>
+        </div>
+    </div>
+    <div class="models">
+        <div class="model3">
+            <p>Model S</p>
+        </div>
+        <p class="para">Order Online for Touchless Delivery</p>
+        <div class="btn">
+            <button class="bt1">CUSTOM ORDER</button>
+            <button class="bt2">EXISTING INVENTROY</button>
+        </div>
+    </div>
+    <div class="modelx">
+        <div class="model3">
+            <p>Model X</p>
+        </div>
+        <p class="para">Order Online for Touchless Delivery</p>
+        <div class="btn">
+            <button class="bt1">CUSTOM ORDER</button>
+            <button class="bt2">EXISTING INVENTROY</button>
+        </div>
+    </div>
+    <div class="SolarPanel">
+        <div class="model3">
+            <p>Solar Panel</p>
+        </div>
+        <p class="para">Order Online for Touchless Delivery</p>
+        <div class="btn">
+            <button class="bt1">CUSTOM ORDER</button>
+            <button class="bt2">EXISTING INVENTROY</button>
+        </div>
+    </div>
+    <div class="Solarroof">
+        <div class="model3">
+            <p>Solar Roof</p>
+        </div>
+        <p class="para">Order Online for Touchless Delivery</p>
+        <div class="btn">
+            <button class="bt1">CUSTOM ORDER</button>
+            <button class="bt2">EXISTING INVENTROY</button>
+        </div>
+    </div>
+    <div class="Acce">
+        <div class="model3">
+            <p>Accessories</p>
+
+        </div>
+        <div class="btn">
+            <button class="bt1">SHOP NOW</button>
+        </div>
+        <br>
+        <p class="fot"><a href="#">Tesla &copy; 2022 </a><a href="#"> Privacy & Legal</a><a href="#"> Contact </a> <a
+                href="#"> Carrers</a><a href="#"> Engage</a><a
+                href="https://www.tesla.com/findus?v=2&bounds=65.0982957380732%2C29.54810300000002%2C46.93266158694732%2C-33.733147&zoom=5&filters=store%2Cservice%2Csupercharger%2Cdestination%20charger%2Cbodyshop%2Cparty&location=aberdeenwellingtoncir">
+                Location </a></p>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
